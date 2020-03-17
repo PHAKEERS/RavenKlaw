@@ -8,3 +8,7 @@ def home(request):
 
 def new(request):
     return render(request, 'new.html')
+
+
+def python(request):
+    return render(request, 'python.html')

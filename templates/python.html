@@ -1,0 +1,136 @@
+{% load static%}
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="{%static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="{%static 'css/python.css'%}">
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <nav class="navbar" style="background-color: whitesmoke;">
+
+        <a href="#" class="navbar-brand">
+            <img src="{%static 'img/python-logo.png'%} " class="logopng" alt="">
+        </a>
+        <ul class="nav justify-content-end ">
+            <li class="nav-item active">
+                <a href="#" class="nav-link">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Introduction</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Related Technologies</a></li>
+        </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+        </div>
+
+
+
+    </nav>
+
+</head>
+
+
+<body>
+    <!--<div style="background-color:red;">
+        <div class="main-text"></div>
+        <div class="bg-color" style="background-color: black;"></div>
+
+        <div class="python-bg">
+            <img class="img-fluid" src="{% static 'img/python-second-bg.png'%}" alt="python">
+
+        </div>
+    </div>
+-->
+
+    <div class="container">
+        <h1 class="elegantshd "> Introduction </h1>
+
+        <p class="lead">Python is an interpreted, high-level, general-purpose programming language.It was Created by
+            Guido van
+            Rossum.It was first released in 1991.Python is dynamically typed and garbage-collected. It supports multiple
+            programming paradigms, including procedural, object-oriented, and functional programming. Python is often
+            described as a "batteries included" language due to its comprehensive standard library.
+            <blockquote>
+                <h2>Fun-Fact</h2>Python is not named after the Python Snake.It is named after the comedy tv show Monty
+                Python's
+                Flying Circus
+            </blockquote>
+        </p>
+
+        <h1 class="elegantshd">History</h1>
+        <p class="lead">Python was conceived in the late 1980s as a successor to the ABC language. Python 2.0, released
+            in 2000, introduced features like list comprehensions and a garbage collection system capable of collecting
+            reference cycles. Python 3.0, released in 2008, was a major revision of the language that is not completely
+            backward-compatible, and much Python 2 code does not run unmodified on Python 3.
+
+            The Python 2 language, i.e. Python 2.7.x, was officially discontinued on 1 January 2020 (first planned for
+            2015) after which security patches and other improvements will not be released for it.[30][31] With Python
+            2's end-of-life, only Python 3.5.x[32] and later are supported.</p>
+
+        <h1 class="elegantshd">
+            Characterstics</h1>
+        <p class="lead">Python is a multi-paradigm programming language. Object-oriented programming and structured
+            programming are
+            fully supported, and many of its features support functional programming and aspect-oriented programming
+            (including by metaprogramming and metaobjects (magic methods) Many other paradigms are supported via
+            extensions, including design by contract and logic programming.</p>
+
+        <h1 class="elegantshd">
+            Features
+        </h1>
+
+        <ul>
+            <li>
+                <h3>Readable</h3>
+                <p class="lead">Python is easy to read and understand.It has a very easy syntax and proper indentation
+                    makes the code
+                    looks neat and readable to the programmer.</p>
+            </li>
+            <li>
+                <h3>Easy to Learn</h3>
+                <p class="lead">Python is easy to learn despite of being a high level programming language.</p>
+            </li>
+            <li>
+                <h3>Open Source</h3>
+                <p class="lead">Python is an Open-Source language.People from all around the world are continously
+                    contributing in the development and moderations</p>
+            </li>
+            <li>
+                <h3>Cross Platform</h3>
+                <p class="lead">Python is a cross-platform language and can run on various operating systems such as
+                    Windows,Mac,Linux,Unix etc.This increases the portability of the Language</p>
+            </li>
+            <li>
+                <h3>Library Support
+                </h3>
+                <p class="lead"></p>
+            </li>
+        </ul>
+    </div>
+    <script src="{%static 'vendor/jquery/jquery.min.js'%}"></script>
+    <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{%static 'vendor/jquery-easing/jquery.easing.min.js'%}"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="{%static 'js/jqBootstrapValidation.js'%}"></script>
+
+</body>
+
+</html>
